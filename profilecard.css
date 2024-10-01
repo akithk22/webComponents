@@ -1,0 +1,54 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 30%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 15px 15px 15px 15px rgba(255, 0, 0, 0.5);
+    transition: 0.3s; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(200, 200, 200, 0.5);
+    text-align: center;
+}
+ .header{
+    width: 100%;
+    /* background-image: url(images/profilePic.jpg); */
+    background-color: black;
+ }
+ .body{
+    padding: 1rem;
+ }
+ .title{
+    font-size: 1.2rem;
+ }
+ .linkicons{
+    padding: 1rem;
+ }
+ a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 1.2rem;
+    
+ }
+ button{
+    border: none;
+    display: inline-block;
+    /* margin: 0.5rem; */
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    font-size: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+ }
+ a:hover, button:hover{
+    opacity: 0.7;
+ }
+ .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+ }
